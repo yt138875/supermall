@@ -25,7 +25,7 @@
       <template #item-icon-active>
         <img src="~assets/img/tabbar/shopcart_active.svg" alt="" />
       </template>
-      <template #item-text>購物車</template> 
+      <template #item-text>购物车</template> 
     </tab-bar-item>
     <tab-bar-item path="/profile">
       <template #item-icon>

@@ -29,7 +29,7 @@ export default {
   },
   methods: {
     imgLoad() {
-      //发射一个事件（事件总线）
+      //发射一个事件
       this.$emit('load')
     },
     imgClick() {

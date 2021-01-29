@@ -35,6 +35,7 @@ export default {
     imgLoad() {
       //判断当前的counter值是否与图片的个数一样，如果不一样则让counter++，这样可以只发送一次事件
       if(++this.counter === this.imageLength) {
+        console.log('-----');
         this.$emit('imageLoad')
       }     
     }

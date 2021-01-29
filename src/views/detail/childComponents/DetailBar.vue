@@ -36,6 +36,8 @@ export default {
     //点击切换选中的参数
     indexClick(index) {
       this.currentIndex = index
+      //将index发送出去
+      this.$emit('barIndex',index)
     },
     //点击返回上一个路由（返回上一页）
     backClick() {
