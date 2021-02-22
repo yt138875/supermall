@@ -29,8 +29,8 @@
       />
       <goods-list :goods="showGoods" @imgitemload="imgItemLoad" />
     </scroll>
-    <!-- .native修饰符可以直接监听组件的原生事件 -->
-    <back-top @click.native="topClick" v-show="isShow"></back-top>
+    <!-- .native/enter修饰符可以直接监听组件的原生事件  vue3中native已经弃用-->
+    <back-top @click.enter="topClick" v-show="isShow"></back-top>
   </div>
 </template>
 
