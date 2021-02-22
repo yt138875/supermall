@@ -182,11 +182,11 @@ export default {
 .nav-home {
   /* 只用公共样式中定义的变量 */
   background-color: var(--color-tint);
-  color: #fff;
+  color: #fff; 
   text-align: center!important;
 }
 .content {
-  height: calc(100%);
+  height: calc(100% - 49px);
   overflow: hidden;
 }
 </style>

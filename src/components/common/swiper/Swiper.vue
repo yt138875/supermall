@@ -25,7 +25,7 @@
       //延迟多久开始轮播
       animDuration: {
 		    type: Number,
-        default: 100
+        default: 1000
       },
       //移动比例
       moveRatio: {
